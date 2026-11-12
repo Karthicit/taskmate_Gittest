@@ -1,0 +1,5 @@
+[
+  {"id": 1, "title": "Read Pro Git chapter 1", "priority": "high", "done": false, "due": "2026-11-20"},
+  {"id": 2, "title": "Practice branching", "priority": "medium", "done": false, "due": null},
+  {"id": 3, "title": "Set up SSH key for GitHub", "priority": "low", "done": true, "due": null}
+]
