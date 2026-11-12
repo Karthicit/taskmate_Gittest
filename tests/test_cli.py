@@ -9,7 +9,12 @@ from taskmate.cli import main
 
 
 
+<<<<<<< HEAD
 print("hello this is start")
+=======
+
+print("hello this is the beginning")
+>>>>>>> second
 def run(*argv):
     out, err = io.StringIO(), io.StringIO()
     with contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
