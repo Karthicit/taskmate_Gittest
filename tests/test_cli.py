@@ -7,6 +7,9 @@ from pathlib import Path
 from taskmate.cli import main
 
 
+
+
+print("hello this is the beginning")
 def run(*argv):
     out, err = io.StringIO(), io.StringIO()
     with contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
