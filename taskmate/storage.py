@@ -8,7 +8,7 @@ from .models import Task
 
 DEFAULT_PATH = Path(os.environ.get("TASKMATE_FILE", Path.home() / ".taskmate.json"))
 
-
+print("done")
 class TaskStore:
     def __init__(self, path=None):
         self.path = Path(path) if path else DEFAULT_PATH
