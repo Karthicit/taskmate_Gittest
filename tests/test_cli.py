@@ -4,9 +4,12 @@ import tempfile
 import unittest
 from pathlib import Path
 
+
 from taskmate.cli import main
 
 
+
+print("hello this is start")
 def run(*argv):
     out, err = io.StringIO(), io.StringIO()
     with contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
