@@ -5,6 +5,7 @@ import sys
 from .service import TaskService
 from .storage import TaskStore
 
+print("this code is for Command line interface")
 
 def format_task(task) -> str:
     mark = "x" if task.done else " "
